@@ -11,19 +11,19 @@
         {% csrf_token %}
 
         <div class="mb-5">
-            <label class="text-white"> Username </label>
+            <label class="text-white"> Логин4ик </label>
 
             <input type="text" name="username" class="w-full mt-2 px-4 py-2 rounded-xl">
         </div>
 
         <div class="mb-5">
-            <label class="text-white"> Password </label>
+            <label class="text-white"> Пароль </label>
 
             <input type="password" name="password1" class="w-full mt-2 px-4 py-2 rounded-xl">
         </div>
 
         <div class="mb-5">
-            <label class="text-white"> Repeat password </label>
+            <label class="text-white"> Пароль ещё раз </label>
 
             <input type="password" name="password2" class="w-full mt-2 px-4 py-2 rounded-xl">
         </div>
@@ -37,6 +37,6 @@
                 {% endfor %}
             {% endfor %}
         {% endif %}
-        <button class="px-3 py-3 rounded-xl text-white bg-teal-800 hover: bg-teal-700"> Подтвердить</button>
+        <button class="px-3 py-3 rounded-xl text-white bg-teal-800 hover: bg-teal-700"> Стартуем</button>
     </form>
 {% endblock %}
